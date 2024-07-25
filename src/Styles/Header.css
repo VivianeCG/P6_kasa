@@ -1,0 +1,29 @@
+header {
+    width: 1240px;
+    height: 68px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo{
+    width: 210px;
+    height: 68px;
+    padding-left: 45px;
+}
+nav{
+    width: 309px;
+    height: 34px;
+    padding-top: 17px;
+
+}
+ul{
+    display: flex;
+    flex-direction: row; 
+    gap: 57px;
+    list-style: none;
+    font-family: 'Montserrat';
+    font-size: 24px;
+}
+a{
+    
+}
