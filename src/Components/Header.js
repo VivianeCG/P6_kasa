@@ -2,9 +2,9 @@ import logo from '../Assets/LogoKasa.PNG'
 import '../Styles/Header.css'
 function Header() {
     return (<div>
-        <header>
+        <header className='header'>
             <img src= {logo} alt="logo Kasa" className='logo'></img>
-            <nav>
+            <nav className='navbar'>
                 <ul>
                     <li><a href='#'>Accueil</a></li>
                     <li><a href='#'>A propos</a></li> 
