@@ -2,7 +2,7 @@ import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import Home from './Pages/Home';
 import About from './Pages/About';
-import Page404 from './Pages/Page404';
+import Error from './Pages/Error.js';
 import RentalInfos from './Pages/RentalInfos'
 import Header from './Components/Header';
 import Footer from './Components/Footer.js';
@@ -13,10 +13,10 @@ function App() {
     <div className="App">
       <Header/>
         <Routes>
-          <Route path='/' element={<Home/>}/>
-          <Route path='/About' element={<About/>}/>
-          <Route path='/Page404' element={<Page404/>}/>
-          <Route path='/RentalInfos' element={<RentalInfos/>}/>
+          <Route path="/" element={<Home/>}/>
+          <Route path="/About" element={<About/>}/>
+          <Route path="*" element={<Error/>}/>
+          <Route path="/RentalInfos" element={<RentalInfos/>}/>
         </Routes>
       <Footer/>
     </div>
