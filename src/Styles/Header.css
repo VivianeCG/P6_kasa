@@ -5,6 +5,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-content: center;
+  margin: 0px 0px 30px 50px;
 }
 
 .logo {
@@ -16,7 +17,6 @@
 .navbar {
   width: 309px;
   height: 34px;
-  padding-top: 17px;
 }
 .navbar ul {
   display: flex;
