@@ -1,10 +1,10 @@
-import '../Styles/Banner.css'
+import '../Styles/Banner/Banner.css';
 
-function Banner() {
-    return <div>
-        <div className="banner">
-
-        </div>
-    </div>
+function Banner(image) {
+    return (<div>
+                <figure className="banner"> 
+                    <img src= {image} alt='photo de bord de mer'/>
+                </figure>
+            </div>);
 }
 export default Banner;

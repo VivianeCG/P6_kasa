@@ -1,10 +1,10 @@
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
-import Home from './Pages/Home';
-import About from './Pages/About';
+import Home from './Pages/Home.js';
+import About from './Pages/About.js';
 import Error from './Pages/Error.js';
-import RentalInfos from './Pages/RentalInfos'
-import Header from './Components/Header';
+import RentalInfos from './Pages/RentalInfos.js';
+import Header from './Components/Header.js';
 import Footer from './Components/Footer.js';
 
 

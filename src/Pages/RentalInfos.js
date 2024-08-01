@@ -1,8 +1,8 @@
 
 function RentalInfos() {
-    return <div>
+    return (<div>
         <p>page des logements</p>
-    </div>
+    </div>);
 }
 
 export default RentalInfos;

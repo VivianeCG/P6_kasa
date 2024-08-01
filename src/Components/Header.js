@@ -1,5 +1,5 @@
-import logo from '../Assets/LogoKasa.PNG'
-import '../Styles/Header.css'
+import logo from '../Assets/LogoKasa.PNG';
+import '../Styles/Header/Header.css';
 import { Link } from 'react-router-dom';
 function Header() {
     return (<div>
