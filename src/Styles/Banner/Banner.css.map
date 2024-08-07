@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["Banner.sass"],"names":[],"mappings":"AAAA;EACI;EACA;EACA;EACA","sourcesContent":[".banner\r\n    width: 1240px\r\n    height: 223px\r\n    border-radius: 25px\r\n    margin-left: 98px"]}
+{"version":3,"sources":["Banner.sass","Banner.css"],"names":[],"mappings":"AAAA;EACI,aAAA;EACA,aAAA;EACA,mBAAA;EACA,iBAAA;EACA,gBAAA;EACA,aAAA;EACA,uBAAA;EACA,mBAAA;ACCJ;;ADAA;EACI,oBAAA;KAAA,iBAAA;EACA,0BAAA;KAAA,uBAAA;ACGJ","file":"Banner.css"}

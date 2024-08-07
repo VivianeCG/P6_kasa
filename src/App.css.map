@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["App.sass"],"names":[],"mappings":"AAAA;EACI;EACA","sourcesContent":[".App\r\n    width: 1440px\r\n    padding-top: 30px"]}
+{"version":3,"sources":["App.sass","App.css"],"names":[],"mappings":"AAAA;EACI,aAAA;EACA,iBAAA;ACCJ","file":"App.css"}

@@ -1,6 +1,17 @@
-.banner {
+.banner img {
   width: 1240px;
   height: 223px;
   border-radius: 25px;
-  margin-left: 98px;
+  margin-left: 50px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
 }/*# sourceMappingURL=Banner.css.map */

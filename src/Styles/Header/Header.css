@@ -1,5 +1,5 @@
 .header {
-  width: 1240px;
+  width: 1265px;
   height: 68px;
   display: flex;
   flex-direction: row;
@@ -25,6 +25,7 @@
   list-style: none;
   font-family: "Montserrat";
   font-size: 24px;
+  margin-left: 17px;
 }
 .navbar a {
   color: black;
