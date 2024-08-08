@@ -1,0 +1,13 @@
+.banner_text {
+  color: black;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.card_background {
+  width: 1240px;
+  height: 829px;
+  background-color: #F6F6F6;
+  border-radius: 25px;
+  margin-left: 85px;
+}/*# sourceMappingURL=Homepage.css.map */
