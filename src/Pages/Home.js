@@ -7,10 +7,10 @@ import accomodation from'../Assets/accomodations.json';
 function Home() {
     return (<div className='App'>
                 <Banner src={photo} alt="bord de mer">
-                    <figcaption className='banner_text'>Chez vous, partout et ailleurs</figcaption>
+                    <h1 className='banner_text'>Chez vous, partout et ailleurs</h1>
                 </Banner>
                 <section className='card_background'>
-                    map et link balises parents de card pour aller vers les infos de l'appart
+                    {/*map et link balises parents de card pour aller vers les infos de l'appart*/}
                     <Card/>
                 </section>
             </div>);
