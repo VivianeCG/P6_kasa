@@ -1,7 +1,18 @@
 .banner_text {
-  color: black;
+  color: white;
   font-size: 48px;
   font-weight: 700;
+  position: absolute;
+  bottom: 0px;
+  left: 101px;
+  width: 1240px;
+  height: 223px;
+  background-color: black;
+  opacity: 0.6;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card_background {
@@ -9,5 +20,10 @@
   height: 829px;
   background-color: #F6F6F6;
   border-radius: 25px;
-  margin-left: 85px;
+  margin-left: 100px;
+  margin-top: 50px;
+  gap: 60px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }/*# sourceMappingURL=Homepage.css.map */
