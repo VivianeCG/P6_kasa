@@ -16,14 +16,26 @@
 }
 
 .card_background {
-  width: 1240px;
-  height: 829px;
+  width: 1195px;
   background-color: #F6F6F6;
   border-radius: 25px;
   margin-left: 100px;
   margin-top: 50px;
+  padding: 47px 0px 47px 50px;
   gap: 60px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+.flat_name {
+  color: white;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  z-index: 2;
 }/*# sourceMappingURL=Homepage.css.map */

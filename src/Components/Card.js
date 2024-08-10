@@ -4,7 +4,7 @@ const Card = ({ src, alt, children }) => {
     return (
         <article>
             <figure className="card">
-                <img src={src} alt={alt} />
+                <img className='card_img' src={src} alt={alt} />
                 {children}
             </figure>
         </article>
