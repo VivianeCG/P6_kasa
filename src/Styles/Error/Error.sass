@@ -7,17 +7,20 @@
     align-items: center
     margin-bottom: 100px
 
-section
+@mixin marginbottom
     margin-bottom: 150px
     
 .number
     font-size: 288px
     font-weight: 700
+    @include marginbottom
+    
 
 .sentence
     font-size: 36px
     font-weight: 500
-
+    @include marginbottom
+    
 .link
     color: black
     font-weight: 500

@@ -8,18 +8,16 @@
   margin-bottom: 100px;
 }
 
-section {
-  margin-bottom: 150px;
-}
-
 .number {
   font-size: 288px;
   font-weight: 700;
+  margin-bottom: 150px;
 }
 
 .sentence {
   font-size: 36px;
   font-weight: 500;
+  margin-bottom: 150px;
 }
 
 .link {

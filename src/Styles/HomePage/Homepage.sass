@@ -1,7 +1,11 @@
+@mixin font font-weight
+    font-family: Montserrat
+    font-weight: 700
+
 .banner_text
     color: white
+    @include font font-weight
     font-size: 48px
-    font-weight: 700
     position: absolute
     bottom: -31px
     left: 101px
@@ -18,8 +22,7 @@
     width: 1195px
     background-color: #F6F6F6
     border-radius: 25px
-    margin-left: 100px
-    margin-top: 50px
+    margin: 50px 0px 50px 100px
     padding: 47px 0px 47px 50px
     gap: 60px
     display: flex
@@ -28,11 +31,10 @@
 
 .flat_name
     color: white
+    @include font font-weight
     position: absolute
     bottom: 20px
     left: 20px
     right: 20px
-    font-family: Montserrat
     font-size: 18px
-    font-weight: 700
     z-index: 2 //nom au-dessus du dégradé
