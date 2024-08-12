@@ -1,8 +1,9 @@
-
+import Carrousel from '../Components/Carrousel.js';
 function RentalInfos() {
-    return (<div>
+    return (<main>
         <p>page des logements</p>
-    </div>);
+        <Carrousel/>
+    </main>);
 }
 
 export default RentalInfos;

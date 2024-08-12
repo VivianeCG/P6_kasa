@@ -5,7 +5,7 @@ import Card from '../Components/Card.js';
 import data from'../Assets/accomodations.json';
 
 function Home() {
-    return (<div className='App'>
+    return (<main className='App'>
                 <Banner src={photo} alt="bord de mer">
                     <h1 className='banner_text'>Chez vous, partout et ailleurs</h1>
                 </Banner>
@@ -19,6 +19,6 @@ function Home() {
                         </Card>
                     ))}
                 </section>
-            </div>);
+            </main>);
 }
 export default Home;
