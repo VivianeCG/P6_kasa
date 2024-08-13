@@ -13,5 +13,6 @@ function Carrousel() {
         </figure>
     )
 }
+//en dessous de la 2e flèche insérer le compteur 1 sur x
 
 export default Carrousel;
