@@ -6,7 +6,12 @@ import '../Styles/About/About.css';
 function About() {
     return (<div className='App'>
                 <Banner src={photo} alt="paysage de montagne" />
-                <Collapse/>
+                <section className='collapse_wrapper'> 
+                    <Collapse/>
+                    <Collapse/>
+                    <Collapse/>
+                    <Collapse/>
+                </section>
             </div>);
 }
 
