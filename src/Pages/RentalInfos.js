@@ -1,9 +1,10 @@
 import Carrousel from '../Components/Carrousel.js';
 import Names_and_tags from '../Components/Name_and_tags.js';
-import Owner_and_rating from '../Components/Owner_and_rating.js';
+import Owner from '../Components/Owner.js';
 import Collapse from '../Components/Collapse.js';
 import '../Styles/RentalInfos/RentalInfos.css';
 import data from'../Assets/accomodations.json';
+import Rating from '../Components/Rating.js';
 
 function RentalInfos() {
     return (<main>
@@ -13,11 +14,14 @@ function RentalInfos() {
                         <Names_and_tags/>
                     </section>
                     <section className='container2'>
-                        <Owner_and_rating/>
+                        <Owner/>
+                        <Rating/>
                     </section>
                 </div>
-                <Collapse/>
-                <Collapse/>
+                <section className='description_equipment'>
+                    <Collapse/>
+                    <Collapse/>
+                </section>
             </main>);
 }
 
