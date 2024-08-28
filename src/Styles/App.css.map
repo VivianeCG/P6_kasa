@@ -1,0 +1,1 @@
+{"version":3,"sources":["App.sass","App.css"],"names":[],"mappings":"AAAA;EACI,aAAA;EACA,iBAAA;EACA,YAAA;ACCJ","file":"App.css","sourcesContent":[".App\r\n    width: 1440px\r\n    padding-top: 45px\r\n    margin: auto",".App {\n  width: 1440px;\n  padding-top: 45px;\n  margin: auto;\n}"]}

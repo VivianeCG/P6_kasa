@@ -19,8 +19,8 @@ function RentalInfos() {
                     </section>
                 </div>
                 <section className='description_equipment'>
-                    <Collapse/>
-                    <Collapse/>
+                    <Collapse className='collapse_width50'/>
+                    <Collapse className='collapse_width50'/>
                 </section>
             </main>);
 }

@@ -13,6 +13,7 @@ function About() {
                         key={info.id}
                         title={info.title}
                         content={info.content}
+                        className='collapse_element'
                    />
                     ))}
                 </section>

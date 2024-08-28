@@ -1,4 +1,4 @@
-import '../Styles/Card/card.css';
+import '../Styles/Card/Card.css';
 
 const Card = ({src, alt, children }) => {
     return (

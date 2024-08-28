@@ -15,10 +15,10 @@
   display: flex;
 }
 
-/*.width50 {
+.width50 {
   width: 543px;
   margin-left: 0px;
-}*/
+}
 
 .description_equipment {
   display: flex;

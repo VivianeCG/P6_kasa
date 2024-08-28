@@ -1,10 +1,6 @@
-@mixin font font-weight
-    font-family: Montserrat
-    font-weight: 700
-
 .banner_text
     color: white
-    @include font font-weight
+    @include font-font-weight
     font-size: 48px
     position: absolute
     bottom: -31px
@@ -20,7 +16,7 @@
 
 .card_background
     width: 1195px
-    background-color: #F6F6F6
+    background-color: $secondary_color
     border-radius: 25px
     margin: 50px 0px 50px 100px
     padding: 47px 0px 47px 50px
@@ -31,7 +27,7 @@
 
 .flat_name
     color: white
-    @include font font-weight
+    @include font-font-weight
     position: absolute
     bottom: 20px
     left: 20px
