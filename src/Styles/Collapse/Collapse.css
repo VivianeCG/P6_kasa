@@ -1,9 +1,9 @@
 .collapse_element {
+  width: 80%;
   height: 52px;
   border-radius: 5px;
   margin-bottom: 30px;
   font-weight: 700;
-  width: 1023px;
   color: #FFFFFF;
   background-color: #FF6060;
   margin-left: 100px;
@@ -11,19 +11,46 @@
   justify-content: space-between;
   align-items: center;
   padding: 0px 20px 0px 20px;
+  overflow: hidden;
+  user-select: none;
 }
-
+.collapse_toggle{
+  display: none;
+} 
 .collapse_arrow {
+  cursor: pointer;
   width: 32px;
   height: 32px;
+  transition: transform 0.3s ease;
 }
 
 .collapse_content {
-  width: 900px;
-  min-height: 150px;
+  width: 100%;
+  /*min-height: 150px;*/
   font-size: 18px;
   font-weight: normal;
   color: black;
   background-color: #F6F6F6;
   border-radius: 10px;
-}/*# sourceMappingURL=Collapse.css.map */
+  max-height: 52px;
+  opacity: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease, opacity 0.3s ease, transform 0.3s ease;
+  transform: translateY(-10px);
+  padding: 0 15px;
+}
+/* Rotation de la flèche lorsque le checkbox est coché */
+.collapse_toggle:checked + .collapse_header .collapse_arrow {
+    transform: rotate(-180deg);
+}
+/* Afficher le contenu lorsque le checkbox est coché */
+.collapse_toggle:checked ~ .collapse_content {
+    max-height: 160px;
+    opacity: 1;
+    transform: translateY(0); /* 65px pour que ce soit décalé sous le bandeau problème on ne le voit plus!! */
+    padding: 15px;
+    margin-top: 10px;
+  }
+
+
+/*# sourceMappingURL=Collapse.css.map */

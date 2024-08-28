@@ -11,6 +11,7 @@ function About() {
                     {data.map((info) => (
                     <Collapse
                         key={info.id}
+                        id={info.id}
                         title={info.title}
                         content={info.content}
                         className='collapse_element'
