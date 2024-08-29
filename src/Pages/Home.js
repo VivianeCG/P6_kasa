@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 function Home() {
   return (
-    <main>
+    <main className="main_container">
       <Banner src={photo} alt="bord de mer">
         <h1 className="banner_text">Chez vous, partout et ailleurs</h1>
       </Banner>

@@ -23,13 +23,15 @@
     gap: 60px
     @include flex-row
     flex-wrap: wrap
-
-.flat_name
-    color: white
-    @include font-font-weight-700
-    position: absolute
-    bottom: 20px
-    left: 20px
-    right: 20px
-    font-size: 18px
-    z-index: 2 //nom au-dessus du dégradé
+    .flat_name
+        color: white
+        @include font-font-weight-700
+        position: absolute
+        bottom: 20px
+        left: 20px
+        right: 20px
+        font-size: 18px
+        z-index: 2 //nom au-dessus du dégradé
+.main_container
+    @media  ( max-width: 375px )
+        @include flex-column
