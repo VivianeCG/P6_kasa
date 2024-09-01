@@ -1,6 +1,5 @@
 import Banner from "../Components/Banner.js";
 import photo from "../Assets/bord_de_mer.jpg";
-import "../Styles/HomePage/Homepage.css";
 import Card from "../Components/Card.js";
 import data from "../Assets/accomodations.json";
 import { Link } from "react-router-dom";

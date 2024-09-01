@@ -1,7 +1,6 @@
 import Banner from '../Components/Banner.js';
 import photo from '../Assets/photo_montagne.jpg';
 import Collapse from '../Components/Collapse.js';
-import '../Styles/About/About.css';
 import data from '../Assets/aboutInformations.json';
 
 function About() {
