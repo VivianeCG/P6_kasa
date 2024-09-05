@@ -1,0 +1,8 @@
+@use '../index';
+.collapse_wrapper{
+    @extend %flex-column;
+    align-items: center;
+    width: 1240px;
+    padding-left: 99px;
+    margin-top: 50px;
+}

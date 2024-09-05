@@ -1,0 +1,25 @@
+@use '../index';
+
+.accommodation_owner{
+    display: flex;
+    flex-direction: row;
+	justify-content: right;
+	gap: 30px;
+}
+.owner_name{
+    //color: $primary_color;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    width: 93px;
+    height: 52px;
+    margin: 0px;
+}
+
+.owner_photo{
+    width: 64px;
+    height: 64px;
+    border-radius: 50px;
+  }  

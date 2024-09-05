@@ -1,0 +1,42 @@
+@use '../index';
+.banner_text{
+    color: white;
+    //@extend %font-font-weight;
+    font-size: 48px;
+    position: absolute;
+    bottom: -31px;
+    left: 101px;
+    width: 1240px;
+    height: 223px;
+    background-color: black;
+    opacity: 0.6;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card_background{
+    width: 1195px;
+    background-color: #F6F6F6;//$secondary_color;
+    border-radius: 25px;
+    margin: 50px 0px 50px 100px;
+    padding: 47px 0px 47px 50px;
+    gap: 60px;
+    @extend %flex-row;
+    flex-wrap: wrap;
+}
+.flat_name{
+    color: white;
+    @extend %font-font-weight-700;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    font-size: 18px;
+    z-index: 2; //nom au-dessus du dégradé
+}
+.main_container{
+    @media  ( max-width: 375px ){
+        display: flex;
+        flex-direction: column;
+    }}

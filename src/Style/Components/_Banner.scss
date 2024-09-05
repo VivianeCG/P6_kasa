@@ -2,12 +2,12 @@
     position: relative;
   }
   
-  .banner {
+.banner {
     margin: 0;
     position: relative;
-  }
+}
   
-  .banner img {
+.banner img {
     width: 1240px;
     height: 223px;
     border-radius: 25px;
@@ -16,11 +16,9 @@
     display: block;
     opacity: 0.6;
     background: #000;
-  }
+}
   
-  img {
-    -o-object-fit: cover;
-       object-fit: cover;
-    -o-object-position: center;
-       object-position: center;
-  }
+img {
+    object-fit: cover;
+    object-position: center;
+}

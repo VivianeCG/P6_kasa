@@ -1,0 +1,26 @@
+@use '../index';
+.error{
+    font-family: 'Montserrat';
+    color: #FF6060;//$primary_color;
+    margin-top: 75px;
+    @extend %flex-column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+   
+.number{
+    font-size: 288px;
+    font-weight: 700;
+    @extend %marginbottom;
+}    
+
+.sentence{
+    font-size: 36px;
+    font-weight: 500;
+    @extend %marginbottom;
+}   
+.link{
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+}
