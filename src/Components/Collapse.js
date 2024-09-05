@@ -1,5 +1,3 @@
-import '../Styles/Collapse/Collapse.css';
-
 function Collapse({id, title, content}) {
     return(
             <section className='collapse_element collapse_width50'>

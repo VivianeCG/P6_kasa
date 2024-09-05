@@ -1,6 +1,4 @@
 import logo from '../Assets/footerLogo.png';
-import '../Styles/Footer/Footer.css';
-
 function Footer() {
     return (<footer className='footer'>
                 <img src= {logo} alt='logo Kasa sur fond noir' className='logo-footer'></img>

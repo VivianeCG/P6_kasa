@@ -1,5 +1,3 @@
-import '../Styles/Carrousel/Carrousel.css';
-
 function Carrousel() {
     return(
         <figure className='carrousel_pictures'>

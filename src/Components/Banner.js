@@ -1,6 +1,3 @@
-import '../Styles/Banner/Banner.css';
-
-
 function Banner({src, alt, children}) {
     return (<div className="banner_container">
                 <figure className="banner"> 

@@ -1,5 +1,3 @@
-import '../Styles/Rating/Rating.css';
-
 function Rating() {
     return(
         <section className='rating'>

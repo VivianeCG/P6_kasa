@@ -1,0 +1,17 @@
+//pour le code qui se répète sans paramètres
+%flex-row
+    {display: flex;
+    flex-direction: row}
+
+%flex-column
+    {display: flex;
+    flex-direction: column}
+    
+
+%font-font-weight-700
+    {font-family: Montserrat;
+    font-weight: 700}
+
+%marginbottom
+    {margin-bottom: 150px}
+

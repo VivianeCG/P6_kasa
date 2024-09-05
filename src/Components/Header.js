@@ -1,5 +1,4 @@
 import logo from '../Assets/headerLogo.png';
-import '../Styles/Header/Header.css';
 import { Link } from 'react-router-dom';
 function Header() {
     return (<header className='header'>

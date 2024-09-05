@@ -1,5 +1,3 @@
-import '../Styles/Names_and_tags/Names_and_tags.css';
-
 function Names_and_tags() {
     return (
         <section className='accommodation_elements'>
