@@ -1,45 +1,3 @@
-.card_background, .header, .header ul {
-  display: flex;
-  flex-direction: row;
-}
-
-.error, .collapse_wrapper, .accommodation_elements, .footer {
-  display: flex;
-  flex-direction: column;
-}
-
-.flat_name {
-  font-family: Montserrat;
-  font-weight: 700;
-}
-
-.number, .sentence {
-  margin-bottom: 150px;
-}
-
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
-}
-
-.App {
-  width: 1440px;
-  padding-top: 45px;
-  margin: auto;
-}
-
-@media (max-width: 374px) {
-  .App {
-    display: flex;
-    flex-direction: column;
-  }
-}
 .banner_container {
   position: relative;
 }
@@ -105,6 +63,73 @@ img {
 
 .next_arrow {
   margin-left: auto;
+}
+
+.card_background, .header, .header ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.error, .collapse_wrapper, .accommodation_elements, .footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.flat_name {
+  font-family: Montserrat;
+  font-weight: 700;
+}
+
+.number, .sentence {
+  margin-bottom: 150px;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.App {
+  width: 1440px;
+  padding-top: 45px;
+  margin: auto;
+}
+
+@media (max-width: 374px) {
+  .App {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.collapse_element {
+  width: 80%;
+  height: 52px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  font-weight: 700;
+  color: #FFFFFF;
+  background-color: #FF6060;
+  margin-left: 100px;
+  padding: 0px 20px 0px 20px;
+}
+
+.collapse_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.collapse_arrow {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
 }
 
 .footer {
@@ -175,7 +200,7 @@ img {
 }
 .accommodation_name {
   font-family: Montserrat;
-  font-size: 36px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 500;
 }

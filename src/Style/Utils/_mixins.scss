@@ -1,0 +1,6 @@
+@mixin Montserrat-si-st-w ($size, $style, $weight){
+    font-family: Montserrat;
+    font-size: $size;
+    font-style: $style;
+    font-weight: $weight;
+}

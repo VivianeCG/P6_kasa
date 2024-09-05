@@ -4,8 +4,9 @@
 }
 .accommodation_name{
     //color: $primary_color;
+    //@include Montserrat-si-st-w (18px, normal, 500);
     font-family: Montserrat;
-    font-size: 36px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 500;
 }
