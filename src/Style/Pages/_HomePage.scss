@@ -1,8 +1,7 @@
-@use '../index';
+@import '../index';
 .banner_text{
     color: white;
-    //@extend %font-font-weight;
-    font-size: 48px;
+    @include Montserrat-si-st-w (48px, normal, 700);
     position: absolute;
     bottom: -31px;
     left: 101px;
@@ -17,7 +16,7 @@
 }
 .card_background{
     width: 1195px;
-    background-color: #F6F6F6;//$secondary_color;
+    background-color: $color-secondary;
     border-radius: 25px;
     margin: 50px 0px 50px 100px;
     padding: 47px 0px 47px 50px;
@@ -27,12 +26,11 @@
 }
 .flat_name{
     color: white;
-    @extend %font-font-weight-700;
+    @include Montserrat-si-st-w (18px, normal, 700);
     position: absolute;
     bottom: 20px;
     left: 20px;
     right: 20px;
-    font-size: 18px;
     z-index: 2; //nom au-dessus du dégradé
 }
 .main_container{

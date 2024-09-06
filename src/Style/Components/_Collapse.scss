@@ -1,23 +1,34 @@
 @import '../index';
 .collapse_element{
     width: 80%;
-    height: 52px;
-    border-radius: 5px;
     margin-bottom: 30px;
-    font-weight: 700;
-    color: #FFFFFF;
-    background-color: $color-primary;
-    margin-left: 100px;
-    padding: 0px 20px 0px 20px;
 }
 .collapse_header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    font-weight: 700;
+    color: #FFFFFF;
+    background-color: $color-primary;
+    padding: 0px 20px;
+    border-radius: 5px;
+    height: 52px;
 }
 .collapse_arrow{
     width: 32px;
     height: 32px;
     cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.collapse_arrow:active {
+    transform: rotate(-180deg);
+}
+.collapse_content{
+    border-radius: 5px;
+    background-color: $color-secondary;
+    color: black;
+    padding: 15px 25px 15px 40px;
+    line-height: 26px;
+    margin-top: 0px;
+    display: block;
 }

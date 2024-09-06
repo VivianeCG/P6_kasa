@@ -1,4 +1,4 @@
-@use '../index';
+@import '../index';
 .collapse_wrapper{
     @extend %flex-column;
     align-items: center;
