@@ -1,4 +1,4 @@
-@use '../index';
+@import '../index';
 .footer{
     background-color: black;
     @extend %flex-column;
@@ -9,9 +9,7 @@
 }
 .legal-info{
     color: white;
-    font-family: Montserrat;
-    font-size: 24px;
-    font-weight: 500;
+    @include Montserrat-si-st-w (24px, normal, 500);
     line-height: 34px;
     text-align: center;
 }

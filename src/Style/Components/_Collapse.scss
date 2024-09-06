@@ -1,4 +1,4 @@
-@use '../index';
+@import '../index';
 .collapse_element{
     width: 80%;
     height: 52px;
@@ -6,8 +6,7 @@
     margin-bottom: 30px;
     font-weight: 700;
     color: #FFFFFF;
-    background-color: #FF6060; 
-    // background-color: $primary_color;
+    background-color: $color-primary;
     margin-left: 100px;
     padding: 0px 20px 0px 20px;
 }

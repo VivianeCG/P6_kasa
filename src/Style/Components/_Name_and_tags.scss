@@ -1,19 +1,13 @@
-@use '../index';
+@import '../index';
 .accommodation_elements{
     @extend %flex-column;
 }
 .accommodation_name{
-    //color: $primary_color;
-    //@include Montserrat-si-st-w (18px, normal, 500);
-    font-family: Montserrat;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 500;
+    color: $color-primary;
+    @include Montserrat-si-st-w (18px, normal, 500);
+
 }
 .accommodation_location{
     color: #000;
-    font-family: Montserrat;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 500;
+    @include Montserrat-si-st-w (18px, normal, 500);
 }

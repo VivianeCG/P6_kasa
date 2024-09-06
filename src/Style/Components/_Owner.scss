@@ -1,18 +1,14 @@
-@use '../index';
+@import '../index';
 
 .accommodation_owner{
-    display: flex;
-    flex-direction: row;
+    @extend %flex-row;
 	justify-content: right;
 	gap: 30px;
 }
 .owner_name{
-    //color: $primary_color;
+    color: $color-primary;
     text-align: right;
-    font-family: Montserrat;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 500;
+    @include Montserrat-si-st-w (18px, normal, 500);
     width: 93px;
     height: 52px;
     margin: 0px;
