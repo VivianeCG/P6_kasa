@@ -10,12 +10,13 @@
     text-align: right;
     @include Montserrat-si-st-w (18px, normal, 500);
     width: 93px;
-    height: 52px;
+    //height: 52px;
     margin: 0px;
 }
 
 .owner_photo{
     width: 64px;
     height: 64px;
-    border-radius: 50px;
+   /* border-radius: 50px;*/
+   shape-outside: circle(32px);
   }  

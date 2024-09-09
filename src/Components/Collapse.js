@@ -14,4 +14,3 @@ function Collapse({id, title, content}) {
 export default Collapse;
 //passer en  props les éléments description et équipement pour la page d'info sur les logements
 //le chemin ci-dessus permet d'avoir le chevron pas le fichier SVG
-// ligne ci-dessous mise en commentaire pour préparer la mise en forme

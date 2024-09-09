@@ -4,10 +4,26 @@
 }
 .accommodation_name{
     color: $color-primary;
-    @include Montserrat-si-st-w (18px, normal, 500);
+    @include Montserrat-si-st-w (36px, normal, 500);
+    margin:0px;
 
 }
 .accommodation_location{
     color: #000;
     @include Montserrat-si-st-w (18px, normal, 500);
+    margin-top: 10px;
+}
+
+.tag_container{
+    width: 115px;
+    height: 25px;
+    flex-shrink: 0;
+    background-color: $color-primary;
+    color: white;
+    border-radius: 10px;
+    @include Montserrat-si-st-w (14px, normal, 700);
+    @extend %flex-row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
 }

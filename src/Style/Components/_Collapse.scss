@@ -1,4 +1,5 @@
 @import '../index';
+
 .collapse_element{
     width: 80%;
     margin-bottom: 30px;
@@ -19,10 +20,11 @@
     height: 32px;
     cursor: pointer;
     transition: transform 0.3s ease;
+    &:active{
+        transform: rotate(-180deg);
+    }
 }
-.collapse_arrow:active {
-    transform: rotate(-180deg);
-}
+
 .collapse_content{
     border-radius: 5px;
     background-color: $color-secondary;
@@ -32,3 +34,4 @@
     margin-top: 0px;
     display: block;
 }
+
