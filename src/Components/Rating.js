@@ -13,3 +13,4 @@ function Rating() {
 }
 
 export default Rating;
+//attention à mapper pour récupérer le bon nombre d'étoiles, cf les tags
