@@ -14,7 +14,7 @@ function Home() {
       </Banner>
       <section className="card_background">
         {data.map((accommodation) => (
-          <Link to={`/RentalInfos/${accommodation.id}`}>
+          <Link to={`/RentalInfos/${accommodation.id}`} key={accommodation.id}>
             <Card
               key={accommodation.id}
               src={accommodation.cover}
