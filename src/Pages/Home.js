@@ -1,3 +1,4 @@
+import { StrictMode } from 'react';
 import Banner from "../Components/Banner.js";
 import photo from "../Assets/bord_de_mer.jpg";
 import Card from "../Components/Card.js";
@@ -6,6 +7,7 @@ import { Link } from "react-router-dom";
 
 function Home() {
   return (
+    <StrictMode>
     <main className="main_container">
       <Banner src={photo} alt="bord de mer">
         <h1 className="banner_text">Chez vous, partout et ailleurs</h1>
@@ -24,6 +26,7 @@ function Home() {
         ))}
       </section>
     </main>
+    </StrictMode>
   );
 }
 export default Home;

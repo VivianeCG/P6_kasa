@@ -1,5 +1,5 @@
 import { Navigate, useParams } from 'react-router-dom';
-import Carrousel from '../Components/Carrousel.js';
+import Slideshow from '../Components/Slideshow.js';
 import Names_and_tags from '../Components/Name_and_tags.js';
 import Owner from '../Components/Owner.js';
 import Collapse from '../Components/Collapse.js';
@@ -13,7 +13,7 @@ function RentalInfos() {
         return <Navigate to={"*"}/>; 
     }
     return (<main>
-                <Carrousel />
+                <Slideshow />
                 <div className='containers'>
                     <section className='container1'>
                         <Names_and_tags
