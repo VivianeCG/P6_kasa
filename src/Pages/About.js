@@ -4,7 +4,7 @@ import Collapse from '../Components/Collapse.js';
 import data from '../Assets/aboutInformations.json';
 
 function About() {
-    return (<div className='App'>
+    return (<div className='App about_page'>
                 <Banner src={photo} alt="paysage de montagne" />
                 <section className='collapse_wrapper'> 
                     {data.map((info) => (
@@ -12,9 +12,9 @@ function About() {
                         key={info.id}
                         id={info.id}
                         title={info.title}
-                        content={info.content}
-                        className='collapse_element'
-                   />
+                        className='collapse_element collapse_arrow collapse_button'>
+                        <div>{info.content}</div>
+                    </Collapse>
                     ))}
                 </section>
             </div>);

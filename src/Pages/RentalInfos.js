@@ -27,11 +27,18 @@ function RentalInfos() {
                         <Rating rating={accommodation.rating}/>
                     </section>
                 </div>
-                <section className='description_equipment'>
-                    <Collapse className='collapse_width50' title="Description" content={accommodation.description}/>
-                    <Collapse className='collapse_width50' title="Équipements" content={accommodation.equipments.join(', ')} />
+                <section className='description_equipment rentalInfo_page'>
+                    <Collapse className='collapse_width50 collapse_button collapse_arrow' title="Description" >
+                    <div>{accommodation.description}</div>
+                    </Collapse>
+                    <Collapse className='collapse_width50 collapse_button collapse_arrow' title="Équipements">
+                    <ul className='equipements_list'>
+                        {accommodation.equipments.map((equipment, index) => (
+                            <li key={index}>{equipment}</li>
+                        ))}
+                    </ul></Collapse>  
                 </section>
             </main>);
 }
-
+//pictures={accommodation.pictures}
 export default RentalInfos;

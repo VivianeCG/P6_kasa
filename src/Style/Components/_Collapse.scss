@@ -8,24 +8,22 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-weight: 700;
+    @include Montserrat-si-st-w (20px, normal, 700);
     color: #FFFFFF;
     background-color: $color-primary;
     padding: 0px 20px;
     border-radius: 5px;
     height: 52px;
 }
-.collapse_arrow{
-    width: 32px;
-    height: 32px;
-    cursor: pointer;
-    transition: transform 0.3s ease;
-    &:active{
-        transform: rotate(-180deg);
-    }
-}
 
 .collapse_content{
+    background-color: transparent;
+    color: transparent;
+    margin-top: -28px;
+    display: block;
+}
+
+.collapse_content.open{
     border-radius: 5px;
     background-color: $color-secondary;
     color: black;
