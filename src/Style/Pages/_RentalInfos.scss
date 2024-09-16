@@ -39,8 +39,5 @@
     //cursor: pointer;
     position: relative;
     z-index: 1;
-    transition: transform 0.3s ease;
-    &:active{
-        transform: rotate(-180deg);
-    }
+
 }

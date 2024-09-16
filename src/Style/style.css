@@ -182,6 +182,9 @@ code {
   color: transparent;
   margin-top: -28px;
   display: block;
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: transform 0.4s ease, opacity 0.4s ease;
 }
 
 .collapse_content.open {
@@ -192,6 +195,17 @@ code {
   line-height: 26px;
   margin-top: 0px;
   display: block;
+  transition: color 0.4s ease, background-color 0.4s ease;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.collapse_arrow {
+  transition: transform 0.3s ease;
+}
+
+.collapse_button.open .collapse_arrow {
+  transform: rotate(180deg);
 }
 
 .footer {
@@ -520,10 +534,6 @@ code {
   height: 35px;
   position: relative;
   z-index: 1;
-  transition: transform 0.3s ease;
-}
-.about_page .collapse_arrow:active {
-  transform: rotate(-180deg);
 }
 
 .error {
@@ -725,10 +735,6 @@ code {
   height: 35px;
   position: relative;
   z-index: 1;
-  transition: transform 0.3s ease;
-}
-.rentalInfo_page .collapse_arrow:active {
-  transform: rotate(-180deg);
 }
 
 /*# sourceMappingURL=style.css.map */
