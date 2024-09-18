@@ -13,7 +13,8 @@ function RentalInfos() {
         return <Navigate to={"*"}/>; 
     }
     return (<main>
-                <Slideshow />
+                <Slideshow  key={accommodation.id}
+                            pictures={accommodation.pictures}/>
                 <div className='containers'>
                     <section className='container1'>
                         <Names_and_tags
