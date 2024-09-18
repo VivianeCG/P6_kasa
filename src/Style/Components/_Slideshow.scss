@@ -26,3 +26,11 @@
     z-index: 1;
     cursor: pointer;
 }
+.image_counter{
+    position: relative;
+    z-index: 2;
+    margin-bottom: -21em;
+    margin-left: 31em;
+    @include Montserrat-si-st-w (1.13em, normal, 700);
+    color: white;
+}
