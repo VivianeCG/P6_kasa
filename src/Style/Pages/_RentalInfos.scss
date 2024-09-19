@@ -37,3 +37,10 @@
     position: relative;
     z-index: 1;
 }
+@media screen and (max-width:376px) {
+    .main_container{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}

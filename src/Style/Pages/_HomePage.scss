@@ -33,8 +33,30 @@
     right: 20px;
     z-index: 2; //nom au-dessus du dégradé
 }
-.main_container{
-    @media  ( max-width: 375px ){
+@media  ( max-width: 376px ){
+    .main_container{
         display: flex;
         flex-direction: column;
-    }}
+    }
+    .banner_text{
+        @include Montserrat-si-st-w (24px, normal, 700);
+        display: flex;
+        flex-wrap: wrap;
+        width: 315px;
+        height: 111px;
+        bottom: -16px;
+        left: 41px;
+        padding-left: 20px;
+    }
+    .card_background{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        margin: unset;
+        gap: unset;
+        padding: 20px;
+    }
+    .flat_name{
+        left: 30px;
+    }
+    }

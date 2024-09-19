@@ -12,13 +12,12 @@ body {
       monospace;
   }
   .App {
-    width: 1440px;
-    padding-top: 45px;
+    width: 90em;
+    padding-top: 2.81em;
     margin: auto;
   }
-  @media (max-width: 374px) {
+  @media (max-width: 375px) {
     .App {
-      display: flex;
-      flex-direction: column;
+      padding-top: unset;
     }
 }

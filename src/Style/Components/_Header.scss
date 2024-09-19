@@ -1,27 +1,27 @@
 @import '../index';
 .header{
-    width: 1265px;
-    height: 68px;
+    width: 79.07em;
+    height: 4.25em;
     @extend %flex-row;
     justify-content: space-between;
     align-content: center;
-    margin: 0px 0px 45px 55px;
+    margin: 0em 0em 2.81em 3.45em;
     .logo{
-        width: 210px;
-        height: 68px;
-        padding-left: 45px;
+        width: 13.13em;
+        height: 4.25em;
+        padding-left: 2.81em;
         }
     .navbar{
-        width: 309px;
-        height: 34px;
+        width: 19.313em;
+        height: 2.125em;
         }
         ul{
           @extend %flex-row ;
-          gap: 57px;
+          gap: 2.375em;
           list-style: none;
           font-family: 'Montserrat';
           font-size: 24px;
-          margin-left: 17px;
+          margin-left: 0.71em;
         }
         a
         {color: black;
@@ -30,16 +30,23 @@
         a:hover
           {text-decoration: underline;}
 }
-@media ( max-width: 375px ){
+@media ( max-width: 376px ){
     .header{
         width: 100%;
-    }
-    .logo{
-        width: 144px;
-        height: 46px;
-    }
-    .navbar{
-        width: 190px;
+        justify-content: unset;
+        padding: 20px 20px 27px 30px;
+        margin: unset;
+        .logo{
+            width: 10%;
+            height: 51%;
+            padding-left: unset;
+        }
+        .navbar{
+            width: 11.875em;
+            ul{
+                font-size: 12px;
+            }
+        }
     }
 }
   

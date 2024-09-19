@@ -12,7 +12,7 @@ function RentalInfos() {
     if (!accommodation) {
         return <Navigate to={"*"}/>; 
     }
-    return (<main>
+    return (<main className='main_container'>
                 <Slideshow  key={accommodation.id}
                             pictures={accommodation.pictures}/>
                 <div className='containers'>
@@ -30,7 +30,7 @@ function RentalInfos() {
                 </div>
                 <section className='description_equipment rentalInfo_page'>
                     <Collapse className='collapse_width50 collapse_button collapse_arrow' title="Description" >
-                    <div>{accommodation.description}</div>
+                    <>{accommodation.description}</>
                     </Collapse>
                     <Collapse className='collapse_width50 collapse_button collapse_arrow' title="Équipements">
                     <ul className='equipements_list'>

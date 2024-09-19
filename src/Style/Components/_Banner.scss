@@ -9,10 +9,10 @@
 }
   
 .banner img {
-    width: 1240px;
-    height: 223px;
+    width: 77.5em;
+    height: 13.938em;
     border-radius: 25px;
-    margin-left: 100px;
+    margin-left: 6.25em;
     overflow: hidden;
     display: block;
     opacity: 0.6;
@@ -22,4 +22,15 @@
 .banner_image {
     object-fit: cover;
     object-position: center;
+}
+@media screen and (max-width:376px) {
+    .banner_container{
+        width: 335px;
+        height: 111px;
+    }
+    .banner img{
+        width: 335px;
+        height: 111px;
+        margin-left: 39px;
+    }
 }

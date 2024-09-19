@@ -18,4 +18,19 @@
     height: 39px;
     margin-bottom: 25px;
 }
-
+@media screen and (max-width: 375px) {
+    .footer{ 
+        width: 375px;
+        height: 209px;}
+    .legal-info{
+        @include Montserrat-si-st-w (12px, normal, 500);
+        width: 133px;
+        height: 36px;
+        display: flex;
+        flex-wrap: wrap;
+        line-height: 20px;
+    }
+    .logo-footer{
+        margin-bottom: unset;
+    }
+}

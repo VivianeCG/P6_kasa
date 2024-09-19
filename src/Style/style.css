@@ -10,15 +10,14 @@ code {
 }
 
 .App {
-  width: 1440px;
-  padding-top: 45px;
+  width: 90em;
+  padding-top: 2.81em;
   margin: auto;
 }
 
-@media (max-width: 374px) {
+@media (max-width: 375px) {
   .App {
-    display: flex;
-    flex-direction: column;
+    padding-top: unset;
   }
 }
 .banner_container {
@@ -31,10 +30,10 @@ code {
 }
 
 .banner img {
-  width: 1240px;
-  height: 223px;
+  width: 77.5em;
+  height: 13.938em;
   border-radius: 25px;
-  margin-left: 100px;
+  margin-left: 6.25em;
   overflow: hidden;
   display: block;
   opacity: 0.6;
@@ -46,6 +45,17 @@ code {
   object-position: center;
 }
 
+@media screen and (max-width: 376px) {
+  .banner_container {
+    width: 335px;
+    height: 111px;
+  }
+  .banner img {
+    width: 335px;
+    height: 111px;
+    margin-left: 39px;
+  }
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
@@ -58,15 +68,14 @@ code {
 }
 
 .App {
-  width: 1440px;
-  padding-top: 45px;
+  width: 90em;
+  padding-top: 2.81em;
   margin: auto;
 }
 
-@media (max-width: 374px) {
+@media (max-width: 375px) {
   .App {
-    display: flex;
-    flex-direction: column;
+    padding-top: unset;
   }
 }
 .card {
@@ -96,6 +105,25 @@ code {
   background: linear-gradient(white, 42%, black);
 }
 
+@media screen and (max-width: 376px) {
+  .card {
+    width: 335px;
+    height: 255px;
+    padding: 20px;
+  }
+  .card::before {
+    content: "";
+    position: absolute;
+    width: 335px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+    z-index: 1;
+    margin: 20px;
+    border-radius: 10px;
+  }
+  .card_img {
+    border-radius: 10px;
+  }
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
@@ -108,15 +136,14 @@ code {
 }
 
 .App {
-  width: 1440px;
-  padding-top: 45px;
+  width: 90em;
+  padding-top: 2.81em;
   margin: auto;
 }
 
-@media (max-width: 374px) {
+@media (max-width: 375px) {
   .App {
-    display: flex;
-    flex-direction: column;
+    padding-top: unset;
   }
 }
 .slideshow_pictures {
@@ -174,15 +201,14 @@ code {
 }
 
 .App {
-  width: 1440px;
-  padding-top: 45px;
+  width: 90em;
+  padding-top: 2.81em;
   margin: auto;
 }
 
-@media (max-width: 374px) {
+@media (max-width: 375px) {
   .App {
-    display: flex;
-    flex-direction: column;
+    padding-top: unset;
   }
 }
 .collapse_element {
@@ -236,6 +262,12 @@ code {
   transform: rotate(180deg);
 }
 
+@media screen and (max-width: 376px) {
+  .collapse_element {
+    width: 90%;
+    margin-bottom: 0;
+  }
+}
 .footer {
   display: flex;
   flex-direction: column;
@@ -253,15 +285,14 @@ code {
 }
 
 .App {
-  width: 1440px;
-  padding-top: 45px;
+  width: 90em;
+  padding-top: 2.81em;
   margin: auto;
 }
 
-@media (max-width: 374px) {
+@media (max-width: 375px) {
   .App {
-    display: flex;
-    flex-direction: column;
+    padding-top: unset;
   }
 }
 .footer {
@@ -288,6 +319,26 @@ code {
   margin-bottom: 25px;
 }
 
+@media screen and (max-width: 375px) {
+  .footer {
+    width: 375px;
+    height: 209px;
+  }
+  .legal-info {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    width: 133px;
+    height: 36px;
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 20px;
+  }
+  .logo-footer {
+    margin-bottom: unset;
+  }
+}
 .header ul, .header {
   display: flex;
   flex-direction: row;
@@ -305,39 +356,38 @@ code {
 }
 
 .App {
-  width: 1440px;
-  padding-top: 45px;
+  width: 90em;
+  padding-top: 2.81em;
   margin: auto;
 }
 
-@media (max-width: 374px) {
+@media (max-width: 375px) {
   .App {
-    display: flex;
-    flex-direction: column;
+    padding-top: unset;
   }
 }
 .header {
-  width: 1265px;
-  height: 68px;
+  width: 79.07em;
+  height: 4.25em;
   justify-content: space-between;
   align-content: center;
-  margin: 0px 0px 45px 55px;
+  margin: 0em 0em 2.81em 3.45em;
 }
 .header .logo {
-  width: 210px;
-  height: 68px;
-  padding-left: 45px;
+  width: 13.13em;
+  height: 4.25em;
+  padding-left: 2.81em;
 }
 .header .navbar {
-  width: 309px;
-  height: 34px;
+  width: 19.313em;
+  height: 2.125em;
 }
 .header ul {
-  gap: 57px;
+  gap: 2.375em;
   list-style: none;
   font-family: "Montserrat";
   font-size: 24px;
-  margin-left: 17px;
+  margin-left: 0.71em;
 }
 .header a {
   color: black;
@@ -347,16 +397,23 @@ code {
   text-decoration: underline;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 376px) {
   .header {
     width: 100%;
+    justify-content: unset;
+    padding: 20px 20px 27px 30px;
+    margin: unset;
   }
-  .logo {
-    width: 144px;
-    height: 46px;
+  .header .logo {
+    width: 10%;
+    height: 51%;
+    padding-left: unset;
   }
-  .navbar {
-    width: 190px;
+  .header .navbar {
+    width: 11.875em;
+  }
+  .header .navbar ul {
+    font-size: 12px;
   }
 }
 .tag {
@@ -381,15 +438,14 @@ code {
 }
 
 .App {
-  width: 1440px;
-  padding-top: 45px;
+  width: 90em;
+  padding-top: 2.81em;
   margin: auto;
 }
 
-@media (max-width: 374px) {
+@media (max-width: 375px) {
   .App {
-    display: flex;
-    flex-direction: column;
+    padding-top: unset;
   }
 }
 .accommodation_name {
@@ -449,15 +505,14 @@ code {
 }
 
 .App {
-  width: 1440px;
-  padding-top: 45px;
+  width: 90em;
+  padding-top: 2.81em;
   margin: auto;
 }
 
-@media (max-width: 374px) {
+@media (max-width: 375px) {
   .App {
-    display: flex;
-    flex-direction: column;
+    padding-top: unset;
   }
 }
 .accommodation_owner {
@@ -494,15 +549,14 @@ code {
 }
 
 .App {
-  width: 1440px;
-  padding-top: 45px;
+  width: 90em;
+  padding-top: 2.81em;
   margin: auto;
 }
 
-@media (max-width: 374px) {
+@media (max-width: 375px) {
   .App {
-    display: flex;
-    flex-direction: column;
+    padding-top: unset;
   }
 }
 .rating {
@@ -531,21 +585,20 @@ code {
 }
 
 .App {
-  width: 1440px;
-  padding-top: 45px;
+  width: 90em;
+  padding-top: 2.81em;
   margin: auto;
 }
 
-@media (max-width: 374px) {
+@media (max-width: 375px) {
   .App {
-    display: flex;
-    flex-direction: column;
+    padding-top: unset;
   }
 }
 .collapse_wrapper {
   align-items: center;
-  width: 1240px;
-  padding-left: 99px;
+  width: 77.5em;
+  padding-left: 6.19em;
   margin-top: 50px;
 }
 
@@ -553,7 +606,7 @@ code {
   background: transparent;
   border: none;
   position: absolute;
-  margin-left: 60%;
+  margin-left: 67%;
   cursor: pointer;
 }
 
@@ -564,6 +617,13 @@ code {
   z-index: 1;
 }
 
+@media screen and (max-width: 376px) {
+  .collapse_wrapper {
+    width: 375px;
+    margin-top: 40px;
+    padding-left: 17px;
+  }
+}
 .error {
   display: flex;
   flex-direction: column;
@@ -585,15 +645,14 @@ code {
 }
 
 .App {
-  width: 1440px;
-  padding-top: 45px;
+  width: 90em;
+  padding-top: 2.81em;
   margin: auto;
 }
 
-@media (max-width: 374px) {
+@media (max-width: 375px) {
   .App {
-    display: flex;
-    flex-direction: column;
+    padding-top: unset;
   }
 }
 .error {
@@ -637,15 +696,14 @@ code {
 }
 
 .App {
-  width: 1440px;
-  padding-top: 45px;
+  width: 90em;
+  padding-top: 2.81em;
   margin: auto;
 }
 
-@media (max-width: 374px) {
+@media (max-width: 375px) {
   .App {
-    display: flex;
-    flex-direction: column;
+    padding-top: unset;
   }
 }
 .banner_text {
@@ -690,13 +748,36 @@ code {
   z-index: 2;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 376px) {
   .main_container {
     display: flex;
     flex-direction: column;
   }
+  .banner_text {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    display: flex;
+    flex-wrap: wrap;
+    width: 315px;
+    height: 111px;
+    bottom: -16px;
+    left: 41px;
+    padding-left: 20px;
+  }
+  .card_background {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: unset;
+    gap: unset;
+    padding: 20px;
+  }
+  .flat_name {
+    left: 30px;
+  }
 }
-
 .description_equipment {
   display: flex;
   flex-direction: row;
@@ -719,15 +800,14 @@ code {
 }
 
 .App {
-  width: 1440px;
-  padding-top: 45px;
+  width: 90em;
+  padding-top: 2.81em;
   margin: auto;
 }
 
-@media (max-width: 374px) {
+@media (max-width: 375px) {
   .App {
-    display: flex;
-    flex-direction: column;
+    padding-top: unset;
   }
 }
 .container1 {
@@ -769,6 +849,13 @@ code {
   height: 35px;
   position: relative;
   z-index: 1;
+}
+
+@media screen and (max-width: 376px) {
+  .main_container {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
