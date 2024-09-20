@@ -1,5 +1,4 @@
 import { Routes, Route } from "react-router-dom";
-//import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from "./Pages/Home.js";
 import About from "./Pages/About.js";
 import Error from "./Pages/Error.js";
@@ -11,7 +10,7 @@ import './Style/style.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app" >
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />

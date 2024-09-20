@@ -10,22 +10,31 @@
     background: transparent;
     border: none;
     position: absolute;
-    margin-left: 67%;
+    margin-left: 60%;
     cursor: pointer;
 }
 .about_page .collapse_arrow{
     width: 40px;
     height: 35px;
-    //cursor: pointer;
     position: relative;
     z-index: 1;
 
 }
 @media screen and (max-width: 376px) {
+    .about_page{
+        margin-left: 8px;
+    }
     .collapse_wrapper{
         width: 375px;
         margin-top: 40px;
-        padding-left: 17px;
+        padding-left: 0;
+    }
+    .about_page .collapse_arrow{
+        width: 97%;
+        height: auto;
+    }
+    .about_page .collapse_button {
+        margin-left: 70%;
     }
 }
 

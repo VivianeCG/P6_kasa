@@ -4,7 +4,7 @@ import Collapse from '../Components/Collapse.js';
 import data from '../Assets/aboutInformations.json';
 
 function About() {
-    return (<div className='App about_page'>
+    return (<div className='about_page'>
                 <Banner src={photo} alt="paysage de montagne" />
                 <section className='collapse_wrapper'> 
                     {data.map((info) => (

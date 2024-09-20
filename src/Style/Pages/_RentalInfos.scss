@@ -42,5 +42,8 @@
         display: flex;
         flex-direction: column;
     }
-    
+    .containers, .description_equipment{
+        display: flex;
+        flex-direction: column;
+    }
 }

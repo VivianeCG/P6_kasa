@@ -34,3 +34,9 @@
     @include Montserrat-si-st-w (1.13em, normal, 700);
     color: white;
 }
+@media screen and (max-width: 376px) {
+    .slideshow_pictures{
+        width: 355px;
+        height: 255px;
+    }
+}

@@ -41,5 +41,4 @@ function RentalInfos() {
                 </section>
             </main>);
 }
-//pictures={accommodation.pictures}
 export default RentalInfos;

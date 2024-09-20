@@ -46,15 +46,16 @@
         height: 111px;
         bottom: -16px;
         left: 41px;
-        padding-left: 20px;
+        padding-left: 19px;
     }
     .card_background{
+        width: 375px;
         display: flex;
         flex-direction: column;
         background-color: white;
         margin: unset;
         gap: unset;
-        padding: 20px;
+        padding-left: 6px;
     }
     .flat_name{
         left: 30px;

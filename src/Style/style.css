@@ -1,25 +1,3 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
-}
-
-.App {
-  width: 90em;
-  padding-top: 2.81em;
-  margin: auto;
-}
-
-@media (max-width: 375px) {
-  .App {
-    padding-top: unset;
-  }
-}
 .banner_container {
   position: relative;
 }
@@ -49,33 +27,12 @@ code {
   .banner_container {
     width: 335px;
     height: 111px;
+    margin-left: -20px;
   }
   .banner img {
     width: 335px;
     height: 111px;
     margin-left: 39px;
-  }
-}
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
-}
-
-.App {
-  width: 90em;
-  padding-top: 2.81em;
-  margin: auto;
-}
-
-@media (max-width: 375px) {
-  .App {
-    padding-top: unset;
   }
 }
 .card {
@@ -106,6 +63,9 @@ code {
 }
 
 @media screen and (max-width: 376px) {
+  .flat_card {
+    width: 335px;
+  }
   .card {
     width: 335px;
     height: 255px;
@@ -122,28 +82,6 @@ code {
   }
   .card_img {
     border-radius: 10px;
-  }
-}
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
-}
-
-.App {
-  width: 90em;
-  padding-top: 2.81em;
-  margin: auto;
-}
-
-@media (max-width: 375px) {
-  .App {
-    padding-top: unset;
   }
 }
 .slideshow_pictures {
@@ -189,26 +127,10 @@ code {
   color: white;
 }
 
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
-}
-
-.App {
-  width: 90em;
-  padding-top: 2.81em;
-  margin: auto;
-}
-
-@media (max-width: 375px) {
-  .App {
-    padding-top: unset;
+@media screen and (max-width: 376px) {
+  .slideshow_pictures {
+    width: 355px;
+    height: 255px;
   }
 }
 .collapse_element {
@@ -259,7 +181,7 @@ code {
 }
 
 .collapse_button.open .collapse_arrow {
-  transform: rotate(180deg);
+  transform: rotate(-180deg);
 }
 
 @media screen and (max-width: 376px) {
@@ -267,34 +189,19 @@ code {
     width: 90%;
     margin-bottom: 0;
   }
+  .collapse_header {
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    height: 40px;
+  }
 }
 .footer {
   display: flex;
   flex-direction: column;
 }
 
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
-}
-
-.App {
-  width: 90em;
-  padding-top: 2.81em;
-  margin: auto;
-}
-
-@media (max-width: 375px) {
-  .App {
-    padding-top: unset;
-  }
-}
 .footer {
   background-color: black;
   align-items: center;
@@ -344,28 +251,6 @@ code {
   flex-direction: row;
 }
 
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
-}
-
-.App {
-  width: 90em;
-  padding-top: 2.81em;
-  margin: auto;
-}
-
-@media (max-width: 375px) {
-  .App {
-    padding-top: unset;
-  }
-}
 .header {
   width: 79.07em;
   height: 4.25em;
@@ -405,8 +290,8 @@ code {
     margin: unset;
   }
   .header .logo {
-    width: 10%;
-    height: 51%;
+    width: auto;
+    height: 60%;
     padding-left: unset;
   }
   .header .navbar {
@@ -426,28 +311,6 @@ code {
   flex-direction: column;
 }
 
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
-}
-
-.App {
-  width: 90em;
-  padding-top: 2.81em;
-  margin: auto;
-}
-
-@media (max-width: 375px) {
-  .App {
-    padding-top: unset;
-  }
-}
 .accommodation_name {
   color: #FF6060;
   font-family: Montserrat;
@@ -493,28 +356,6 @@ code {
   flex-direction: row;
 }
 
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
-}
-
-.App {
-  width: 90em;
-  padding-top: 2.81em;
-  margin: auto;
-}
-
-@media (max-width: 375px) {
-  .App {
-    padding-top: unset;
-  }
-}
 .accommodation_owner {
   justify-content: right;
   gap: 30px;
@@ -537,28 +378,6 @@ code {
   border-radius: 50px;
 }
 
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
-}
-
-.App {
-  width: 90em;
-  padding-top: 2.81em;
-  margin: auto;
-}
-
-@media (max-width: 375px) {
-  .App {
-    padding-top: unset;
-  }
-}
 .rating {
   width: 196px;
   height: 36px;
@@ -568,33 +387,23 @@ code {
   margin: 0px;
 }
 
+.app {
+  width: 90em;
+  padding-top: 2.81em;
+}
+
+@media screen and (max-width: 376px) {
+  .app {
+    width: 375px;
+    padding-top: unset;
+    margin: -8px;
+  }
+}
 .collapse_wrapper {
   display: flex;
   flex-direction: column;
 }
 
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
-}
-
-.App {
-  width: 90em;
-  padding-top: 2.81em;
-  margin: auto;
-}
-
-@media (max-width: 375px) {
-  .App {
-    padding-top: unset;
-  }
-}
 .collapse_wrapper {
   align-items: center;
   width: 77.5em;
@@ -606,7 +415,7 @@ code {
   background: transparent;
   border: none;
   position: absolute;
-  margin-left: 67%;
+  margin-left: 60%;
   cursor: pointer;
 }
 
@@ -618,10 +427,20 @@ code {
 }
 
 @media screen and (max-width: 376px) {
+  .about_page {
+    margin-left: 8px;
+  }
   .collapse_wrapper {
     width: 375px;
     margin-top: 40px;
-    padding-left: 17px;
+    padding-left: 0;
+  }
+  .about_page .collapse_arrow {
+    width: 97%;
+    height: auto;
+  }
+  .about_page .collapse_button {
+    margin-left: 70%;
   }
 }
 .error {
@@ -633,28 +452,6 @@ code {
   margin-bottom: 150px;
 }
 
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
-}
-
-.App {
-  width: 90em;
-  padding-top: 2.81em;
-  margin: auto;
-}
-
-@media (max-width: 375px) {
-  .App {
-    padding-top: unset;
-  }
-}
 .error {
   font-family: "Montserrat";
   color: #FF6060;
@@ -684,28 +481,6 @@ code {
   flex-direction: row;
 }
 
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
-}
-
-.App {
-  width: 90em;
-  padding-top: 2.81em;
-  margin: auto;
-}
-
-@media (max-width: 375px) {
-  .App {
-    padding-top: unset;
-  }
-}
 .banner_text {
   color: white;
   font-family: Montserrat;
@@ -764,15 +539,16 @@ code {
     height: 111px;
     bottom: -16px;
     left: 41px;
-    padding-left: 20px;
+    padding-left: 19px;
   }
   .card_background {
+    width: 375px;
     display: flex;
     flex-direction: column;
     background-color: white;
     margin: unset;
     gap: unset;
-    padding: 20px;
+    padding-left: 6px;
   }
   .flat_name {
     left: 30px;
@@ -788,28 +564,6 @@ code {
   flex-direction: column;
 }
 
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
-}
-
-.App {
-  width: 90em;
-  padding-top: 2.81em;
-  margin: auto;
-}
-
-@media (max-width: 375px) {
-  .App {
-    padding-top: unset;
-  }
-}
 .container1 {
   margin-left: 100px;
   width: 50%;
@@ -853,6 +607,10 @@ code {
 
 @media screen and (max-width: 376px) {
   .main_container {
+    display: flex;
+    flex-direction: column;
+  }
+  .containers, .description_equipment {
     display: flex;
     flex-direction: column;
   }
