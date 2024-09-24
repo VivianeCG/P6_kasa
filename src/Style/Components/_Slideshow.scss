@@ -38,5 +38,33 @@
     .slideshow_pictures{
         width: 355px;
         height: 255px;
+        margin-left: 1.2em;
+    }
+
+    .previous_arrow, .next_arrow {
+        width: 24px; 
+        height: 40px;
+        z-index: 1;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+    }
+
+    .previous_arrow {
+        left: 10px;  
+    }
+
+    .next_arrow {
+        right: 10px; 
+    }
+
+    .image_counter {
+        position: absolute;
+        bottom: 10px;
+        margin-left: 47%;
+        margin-bottom: unset;
+        //color: white;
+        font-size: 0.9em;
     }
 }

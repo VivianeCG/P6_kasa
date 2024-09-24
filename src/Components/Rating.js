@@ -6,7 +6,7 @@ function Rating({ rating }) {
   
     return (
       <section className="rating">
-        <svg width="196" height="36" viewBox="0 0 196 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg className="rating" viewBox="0 0 196 36" fill="none" xmlns="http://www.w3.org/2000/svg">
           {stars.map((color, index) => (
             <path
               key={index}

@@ -18,4 +18,17 @@
     width: 64px;
     height: 64px;
     border-radius: 50px;
-}  
+}
+
+@media screen and (max-width: 376px) {
+    .owner_photo{
+        width: 32px;
+        height: 32px;
+    }
+    .owner_name{
+        font-size: 12px;
+    }
+    .accommodation_owner {
+        align-items: center;
+    }
+}

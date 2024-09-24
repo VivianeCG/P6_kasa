@@ -131,11 +131,36 @@
   .slideshow_pictures {
     width: 355px;
     height: 255px;
+    margin-left: 1.2em;
+  }
+  .previous_arrow, .next_arrow {
+    width: 24px;
+    height: 40px;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  .previous_arrow {
+    left: 10px;
+  }
+  .next_arrow {
+    right: 10px;
+  }
+  .image_counter {
+    position: absolute;
+    bottom: 10px;
+    margin-left: 47%;
+    margin-bottom: unset;
+    font-size: 0.9em;
   }
 }
 .collapse_element {
   width: 80%;
   margin-bottom: 30px;
+  transition: max-height 1s ease-in-out;
+  overflow: hidden;
 }
 
 .collapse_header {
@@ -156,11 +181,8 @@
 .collapse_content {
   background-color: transparent;
   color: transparent;
-  margin-top: -28px;
   display: block;
-  opacity: 0;
-  transform: translateY(-10px);
-  transition: transform 0.4s ease, opacity 0.4s ease;
+  max-height: 0;
 }
 
 .collapse_content.open {
@@ -171,9 +193,7 @@
   line-height: 26px;
   margin-top: 0px;
   display: block;
-  transition: color 0.4s ease, background-color 0.4s ease;
-  opacity: 1;
-  transform: translateY(0);
+  max-height: 290px;
 }
 
 .collapse_arrow {
@@ -187,7 +207,8 @@
 @media screen and (max-width: 376px) {
   .collapse_element {
     width: 90%;
-    margin-bottom: 0;
+    margin-top: 10px;
+    height: auto;
   }
   .collapse_header {
     font-family: Montserrat;
@@ -351,6 +372,26 @@
   padding: 5px 15px;
 }
 
+@media screen and (max-width: 376px) {
+  .accommodation_name {
+    font-size: 18px;
+  }
+  .accommodation_location {
+    font-size: 14px;
+  }
+  .tag {
+    font-size: 10px;
+    min-width: 94px;
+    padding: 2px 7px;
+  }
+  .tag_container {
+    flex-wrap: wrap;
+    height: auto;
+  }
+  .accommodation_elements {
+    margin-bottom: 12px;
+  }
+}
 .accommodation_owner {
   display: flex;
   flex-direction: row;
@@ -378,6 +419,18 @@
   border-radius: 50px;
 }
 
+@media screen and (max-width: 376px) {
+  .owner_photo {
+    width: 32px;
+    height: 32px;
+  }
+  .owner_name {
+    font-size: 12px;
+  }
+  .accommodation_owner {
+    align-items: center;
+  }
+}
 .rating {
   width: 196px;
   height: 36px;
@@ -387,6 +440,12 @@
   margin: 0px;
 }
 
+@media screen and (max-width: 376px) {
+  .rating {
+    width: 98px;
+    height: 18px;
+  }
+}
 .app {
   width: 90em;
   padding-top: 2.81em;
@@ -606,13 +665,35 @@
 }
 
 @media screen and (max-width: 376px) {
-  .main_container {
+  .main_container, .containers {
+    width: 375px;
     display: flex;
     flex-direction: column;
   }
-  .containers, .description_equipment {
+  .container1 {
+    margin-left: 1.2em;
+    width: 94%;
+  }
+  .container2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-right: unset;
+    margin-left: 18px;
+    margin-bottom: 1.2em;
+    width: 94%;
+  }
+  .description_equipment {
+    padding-left: 0;
+    margin-left: 1.2em;
+    margin-bottom: unset;
+    width: 105%;
     display: flex;
     flex-direction: column;
+  }
+  .rentalInfo_page .collapse_button {
+    margin-left: 72%;
   }
 }
 
