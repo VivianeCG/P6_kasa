@@ -13,6 +13,8 @@
 
 .sentence{
     @include Montserrat-si-st-w (36px, normal, 500);
+    display: flex;
+    gap: 10px;
 }   
 .number, .sentence{
     @extend %marginbottom;
@@ -27,7 +29,9 @@
     }
     .sentence{
         @include Montserrat-si-st-w (18px, normal, 500);
-        padding: 0px 70px 0px 86px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .link{
         @include Montserrat-si-st-w (14px, normal, 500);
