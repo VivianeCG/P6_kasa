@@ -10,7 +10,7 @@ function Home() {
     <StrictMode>
     <main className="main_container">
       <Banner src={photo} alt="bord de mer">
-        <h1 className="banner_text">Chez vous, partout et ailleurs</h1>
+        <h1 className="banner_text"><div className='banner_1'>Chez vous,</div><div className='banner_2'>partout et ailleurs</div></h1>
       </Banner>
       <section className="card_background">
         {data.map((accommodation) => (

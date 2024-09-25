@@ -590,6 +590,10 @@
   align-items: center;
 }
 
+.banner_1 {
+  margin-right: 10px;
+}
+
 .card_background {
   width: 1195px;
   background-color: #F6F6F6;
@@ -630,6 +634,8 @@
     bottom: -16px;
     left: 41px;
     padding-left: 19px;
+    align-content: center;
+    justify-content: flex-start;
   }
   .card_background {
     width: 375px;
