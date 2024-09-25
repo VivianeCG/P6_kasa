@@ -507,12 +507,11 @@
   flex-direction: column;
 }
 
-.sentence, .number {
+.number, .sentence {
   margin-bottom: 150px;
 }
 
 .error {
-  font-family: "Montserrat";
   color: #FF6060;
   margin-top: 75px;
   align-items: center;
@@ -520,21 +519,49 @@
 }
 
 .number {
+  font-family: Montserrat;
   font-size: 288px;
+  font-style: normal;
   font-weight: 700;
 }
 
 .sentence {
+  font-family: Montserrat;
   font-size: 36px;
+  font-style: normal;
   font-weight: 500;
 }
 
 .link {
   color: black;
-  font-weight: 500;
+  font-family: Montserrat;
   font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
 }
 
+@media screen and (max-width: 376px) {
+  .number {
+    font-family: Montserrat;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .sentence {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    padding: 0px 70px 0px 86px;
+  }
+  .link {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    padding-left: 19px;
+  }
+}
 .card_background {
   display: flex;
   flex-direction: row;

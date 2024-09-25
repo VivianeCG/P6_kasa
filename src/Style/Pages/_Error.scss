@@ -1,7 +1,6 @@
 @import '../index';
 .error{
-    font-family: 'Montserrat';
-    color: #FF6060;//$primary_color;
+    color: $color-primary;
     margin-top: 75px;
     @extend %flex-column;
     align-items: center;
@@ -9,18 +8,29 @@
 }
    
 .number{
-    font-size: 288px;
-    font-weight: 700;
-    @extend %marginbottom;
+    @include Montserrat-si-st-w (288px, normal, 700);
 }    
 
 .sentence{
-    font-size: 36px;
-    font-weight: 500;
-    @extend %marginbottom;
+    @include Montserrat-si-st-w (36px, normal, 500);
 }   
+.number, .sentence{
+    @extend %marginbottom;
+}
 .link{
     color: black;
-    font-weight: 500;
-    font-size: 18px;
+    @include Montserrat-si-st-w (18px, normal, 500);
+}
+@media screen and (max-width: 376px) {
+    .number{
+        @include Montserrat-si-st-w (96px, normal, 700);
+    }
+    .sentence{
+        @include Montserrat-si-st-w (18px, normal, 500);
+        padding: 0px 70px 0px 86px;
+    }
+    .link{
+        @include Montserrat-si-st-w (14px, normal, 500);
+        padding-left: 19px;
+    }
 }
