@@ -5,18 +5,17 @@ import Error from "./Pages/Error.js";
 import RentalInfos from "./Pages/RentalInfos.js";
 import Header from "./Components/Header.js";
 import Footer from "./Components/Footer.js";
-import './Style/style.css';
-
+import "./Style/style.css";
 
 function App() {
   return (
-    <div className="app" >
+    <div className='app'>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/About" element={<About />} />
-        <Route path="*" element={<Error />} />
-        <Route path="/RentalInfos/:id" element={<RentalInfos />} />
+        <Route path='/' element={<Home />} />
+        <Route path='/About' element={<About />} />
+        <Route path='*' element={<Error />} />
+        <Route path='/RentalInfos/:id' element={<RentalInfos />} />
       </Routes>
       <Footer />
     </div>
@@ -24,4 +23,3 @@ function App() {
 }
 
 export default App;
-//<Route path="/RentalInfos" element={<RentalInfos/>}/>
