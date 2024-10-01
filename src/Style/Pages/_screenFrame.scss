@@ -1,10 +1,11 @@
 .app{
-    width: 90em;
+    max-width: n90em;
+    margin: auto;
     padding-top: 2.81em;
 }
 @media screen and (max-width: 376px) {
     .app {
-        width: 375px;
+        max-width: 375px;
         padding-top: unset;
         margin: -8px;
     }
