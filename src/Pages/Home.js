@@ -1,4 +1,3 @@
-import { StrictMode } from "react";
 import Banner from "../Components/Banner.js";
 import photo from "../Assets/bord_de_mer.jpg";
 import Card from "../Components/Card.js";

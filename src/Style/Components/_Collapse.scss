@@ -1,7 +1,7 @@
 @import '../index';
 
 .collapse_element{
-    width: 80%;
+    max-width: 80%;
     margin-bottom: 30px;
     transition: max-height 1s ease-in-out;
     overflow: hidden;

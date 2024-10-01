@@ -157,7 +157,7 @@
   }
 }
 .collapse_element {
-  width: 80%;
+  max-width: 80%;
   margin-bottom: 30px;
   transition: max-height 1s ease-in-out;
   overflow: hidden;
@@ -298,10 +298,6 @@
 }
 .header a {
   color: black;
-  text-decoration: none;
-}
-.header a:hover {
-  text-decoration: underline;
 }
 
 @media (max-width: 376px) {
@@ -448,13 +444,14 @@
   }
 }
 .app {
-  width: 90em;
+  max-width: 90em;
+  margin: auto;
   padding-top: 2.81em;
 }
 
 @media screen and (max-width: 376px) {
   .app {
-    width: 375px;
+    max-width: 375px;
     padding-top: unset;
     margin: -8px;
   }
