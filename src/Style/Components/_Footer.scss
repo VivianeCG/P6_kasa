@@ -19,6 +19,11 @@
     height: 39px;
     margin-bottom: 25px;
 }
+@media (min-width:377px)and (max-width:767px) {
+    .footer{
+        max-width: 766px;
+    }
+}
 @media screen and (max-width: 375px) {
     .footer{ 
         width: 375px;

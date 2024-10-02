@@ -3,10 +3,16 @@
     margin: auto;
     padding-top: 2.81em;
 }
+@media (min-width:377px)and (max-width:767px) {
+    .app{
+        max-width: 766px;
+        margin: auto;
+    }
+}
 @media screen and (max-width: 376px) {
     .app {
         max-width: 375px;
         padding-top: unset;
-        margin: -8px;
+        margin: auto;
     }
 }

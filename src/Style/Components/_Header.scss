@@ -28,6 +28,26 @@
             color: black;
         }
 }
+@media (min-width:377px)and (max-width:767px) {
+    .header{
+        width: 100%;
+        //padding: 20px 20px 27px 30px;
+        margin: unset;
+        justify-content: center;
+        gap: 5%;
+        .logo{
+            width: auto;
+            height: 60%;
+            padding-left: unset;
+        }
+        .navbar{
+            width: 11.875em;
+            ul{
+                font-size: 12px;
+            }
+        }
+    }
+}
 @media ( max-width: 376px ){
     .header{
         width: 100%;

@@ -23,6 +23,13 @@
     object-fit: cover;
     object-position: center;
 }
+@media (min-width:377px)and (max-width:767px) {
+    .banner_image{
+        max-width: 700px;
+        height: 11em;
+        margin: auto;
+    }
+}
 @media screen and (max-width:376px) {
     .banner_container{
         width: 335px;

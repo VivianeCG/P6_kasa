@@ -30,13 +30,13 @@ function RentalInfos() {
       </div>
       <section className='description_equipment rentalInfo_page'>
         <Collapse
-          className='collapse_width50 collapse_button collapse_arrow'
+          className='collapse_width50 collapse_button collapse_arrow rentalInfo_page'
           title='Description'
         >
           <>{accommodation.description}</>
         </Collapse>
         <Collapse
-          className='collapse_width50 collapse_button collapse_arrow'
+          className='collapse_width50 collapse_button collapse_arrow rentalInfo_page'
           title='Équipements'
         >
           <ul className='equipements_list'>
