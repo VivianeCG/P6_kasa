@@ -25,7 +25,26 @@
     background: linear-gradient(white, 42%, black);
 }
 @media (min-width:377px)and (max-width:767px) {
-    
+    .flat_card{
+        width: 335px;
+    }
+    .card{
+        width: 335px;
+        height: 255px;
+        padding: 20px;
+        &::before{ 
+            content: ''; //doit être défini (ici avec une chaîne vide) pour que le pseudo-élément apparaisse.
+            position: absolute;
+            width:335px;
+            background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+            z-index: 1;//dégradé au dessus de l'image
+            margin: 20px;
+            border-radius: 10px;
+            }
+    }
+    .card_img{
+        border-radius: 10px;
+    }
 }
 @media screen and (max-width: 376px) {
     .flat_card{

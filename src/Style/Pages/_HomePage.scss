@@ -42,7 +42,8 @@
         flex-direction: column;
     }
     .banner_text{
-        max-width: 700px;
+        width: 335px;
+        height: 111px;
         @include Montserrat-si-st-w (24px, normal, 700);
         display: flex;
         flex-wrap: wrap;
@@ -56,6 +57,9 @@
         background-color: white;
         margin: unset;
         gap: 25px;
+    }
+    .flat_name{
+        left: 30px;
     }
 }
 @media  ( max-width: 376px ){

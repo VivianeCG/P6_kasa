@@ -24,10 +24,14 @@
 }
 
 @media (min-width: 377px) and (max-width: 767px) {
-  .banner_image {
-    max-width: 700px;
-    height: 11em;
+  .banner_container {
+    width: 335px;
+    height: 111px;
     margin: auto;
+  }
+  .banner img {
+    width: 335px;
+    height: 111px;
   }
 }
 @media screen and (max-width: 376px) {
@@ -69,6 +73,28 @@
   background: linear-gradient(white, 42%, black);
 }
 
+@media (min-width: 377px) and (max-width: 767px) {
+  .flat_card {
+    width: 335px;
+  }
+  .card {
+    width: 335px;
+    height: 255px;
+    padding: 20px;
+  }
+  .card::before {
+    content: "";
+    position: absolute;
+    width: 335px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+    z-index: 1;
+    margin: 20px;
+    border-radius: 10px;
+  }
+  .card_img {
+    border-radius: 10px;
+  }
+}
 @media screen and (max-width: 376px) {
   .flat_card {
     width: 335px;
@@ -299,6 +325,20 @@
   .footer {
     max-width: 766px;
   }
+  .legal-info {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    width: 133px;
+    height: 36px;
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 20px;
+  }
+  .logo-footer {
+    margin-bottom: unset;
+  }
 }
 @media screen and (max-width: 375px) {
   .footer {
@@ -355,7 +395,6 @@
 @media (min-width: 377px) and (max-width: 767px) {
   .header {
     width: 100%;
-    margin: unset;
     justify-content: center;
     gap: 5%;
   }
@@ -742,7 +781,8 @@
     flex-direction: column;
   }
   .banner_text {
-    max-width: 700px;
+    width: 335px;
+    height: 111px;
     font-family: Montserrat;
     font-size: 24px;
     font-style: normal;
@@ -759,6 +799,9 @@
     background-color: white;
     margin: unset;
     gap: 25px;
+  }
+  .flat_name {
+    left: 30px;
   }
 }
 @media (max-width: 376px) {
