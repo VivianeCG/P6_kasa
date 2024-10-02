@@ -29,22 +29,26 @@ function RentalInfos() {
         </section>
       </div>
       <section className='description_equipment rentalInfo_page'>
-        <Collapse
-          className='collapse_width50 collapse_button collapse_arrow rentalInfo_page'
-          title='Description'
-        >
-          <>{accommodation.description}</>
-        </Collapse>
-        <Collapse
-          className='collapse_width50 collapse_button collapse_arrow rentalInfo_page'
-          title='Équipements'
-        >
-          <ul className='equipements_list'>
-            {accommodation.equipments.map((equipment, index) => (
-              <li key={index}>{equipment}</li>
-            ))}
-          </ul>
-        </Collapse>
+        <div className='collapse_width50'>
+          <Collapse
+            className='collapse_button collapse_arrow rentalInfo_page'
+            title='Description'
+          >
+            <>{accommodation.description}</>
+          </Collapse>
+        </div>
+        <div className='collapse_width50'>
+          <Collapse
+            className='collapse_button collapse_arrow rentalInfo_page'
+            title='Équipements'
+          >
+            <ul className='equipements_list'>
+              {accommodation.equipments.map((equipment, index) => (
+                <li key={index}>{equipment}</li>
+              ))}
+            </ul>
+          </Collapse>
+        </div>
       </section>
     </main>
   );

@@ -32,27 +32,8 @@
     align-items: center;
     padding: 5px 15px;
 }
-@media (min-width:377px)and (max-width:767px) {
-    .accommodation_name{
-        font-size: 18px;
-    }
-    .accommodation_location{
-        font-size: 14px;
-    }
-    .tag{
-        font-size: 10px;
-        min-width: 94px;
-        padding: 2px 7px;
-    }
-    .tag_container{
-        flex-wrap: wrap;
-        height: auto;
-    }
-    .accommodation_elements{
-        margin-bottom: 12px;
-    }
-}
-@media screen and (max-width: 376px) {
+
+@media screen and (max-width:767px) {
     .accommodation_name{
         font-size: 18px;
     }

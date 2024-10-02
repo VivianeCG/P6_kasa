@@ -6,13 +6,8 @@
 .accommodation_rating{
     margin: 0px;
 }
-@media (min-width:377px)and (max-width:767px) {
-    .rating{
-        width: 98px;
-        height: 18px;
-    }
-}
-@media screen and (max-width: 376px) {
+
+@media screen and (max-width:767px) {
     .rating{
         width: 98px;
         height: 18px;

@@ -8,15 +8,17 @@ function About() {
     <div className='about_page'>
       <Banner src={photo} alt='paysage de montagne' />
       <section className='collapse_wrapper'>
-        {data.map((info) => (
-          <Collapse
-            key={info.id}
-            id={info.id}
-            title={info.title}
-            className='collapse_element collapse_arrow collapse_button'
-          >
-            <div>{info.content}</div>
-          </Collapse>
+          {data.map((info) => (
+          <div className='collapse_element'>
+            <Collapse
+              key={info.id}
+              id={info.id}
+              title={info.title}
+              className='collapse_element collapse_arrow collapse_button'
+              >
+              <div>{info.content}</div>
+            </Collapse>
+          </div>
         ))}
       </section>
     </div>

@@ -1,22 +1,18 @@
 @import '../index';
 .header{
-    width: 79.07em;
-    height: 4.25em;
-    @extend %flex-row;
+    display: flex;
     justify-content: space-between;
-    align-content: center;
-    margin: 0em 0em 2.81em 3.45em;
+    margin: 0 7% 3% 7%;
     .logo{
         width: 13.13em;
         height: 4.25em;
-        padding-left: 2.81em;
         }
     .navbar{
         width: 19.313em;
         height: 2.125em;
         }
         ul{
-          @extend %flex-row ;
+          display: flex ;
           gap: 2.375em;
           list-style: none;
           font-family: 'Montserrat';
@@ -28,25 +24,8 @@
             color: black;
         }
 }
-@media (min-width:377px)and (max-width:767px) {
-    .header{
-        width: 100%;
-        justify-content: center;
-        gap: 5%;
-        .logo{
-            width: auto;
-            height: 60%;
-            padding-left: unset;
-        }
-        .navbar{
-            width: 11.875em;
-            ul{
-                font-size: 12px;
-            }
-        }
-    }
-}
-@media ( max-width: 376px ){
+
+@media (max-width:767px){
     .header{
         width: 100%;
         justify-content: unset;

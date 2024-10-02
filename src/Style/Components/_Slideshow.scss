@@ -4,7 +4,7 @@
     height: 26em;
     border-radius: 1.04em;
     background: lightgray 50%;
-    margin-left: 6.25em;
+    margin: 3% 7%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -34,37 +34,8 @@
     @include Montserrat-si-st-w (1.13em, normal, 700);
     color: white;
 }
-@media (min-width:377px)and (max-width:767px) {
-    .slideshow_pictures{
-        max-width: 355px;
-        height: 255px;
-        margin-left: 26%;
-    }
-    .previous_arrow, .next_arrow {
-        width: 24px; 
-        height: 40px;
-        z-index: 1;
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        cursor: pointer;
-    }
 
-    .next_arrow {
-        right: 1px; 
-    }
-
-    .image_counter {
-        position: absolute;
-        bottom: 10px;
-        margin-left: 47%;
-        margin-bottom: unset;
-        //color: white;
-        font-size: 0.9em;
-    }
-
-}
-@media screen and (max-width: 376px) {
+@media screen and (max-width:767px) {
     .slideshow_pictures{
         max-width: 355px;
         height: 255px;

@@ -5,7 +5,7 @@ function Collapse({ title, children }) {
     setIsOpen(!isOpen);
   };
   return (
-    <section className='collapse_element'>
+    <section>
       <div className='collapse_header'>
         <h3 className='collapse_title'>{title}</h3>
         <button

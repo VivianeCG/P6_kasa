@@ -23,10 +23,8 @@
     color: black;
     @include Montserrat-si-st-w (18px, normal, 500);
 }
-@media (min-width:377px)and (max-width:767px) {
-    
-}
-@media screen and (max-width: 376px) {
+
+@media screen and (max-width:767px) {
     .number{
         @include Montserrat-si-st-w (96px, normal, 700);
     }

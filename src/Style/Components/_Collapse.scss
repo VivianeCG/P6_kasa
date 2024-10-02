@@ -1,11 +1,5 @@
 @import '../index';
 
-.collapse_element{
-    max-width: 80%;
-    margin-bottom: 30px;
-    transition: max-height 1s ease-in-out;
-    overflow: hidden;
-}
 .collapse_header{
     display: flex;
     justify-content: space-between;
@@ -42,23 +36,8 @@
 .collapse_button.open .collapse_arrow {
     transform: rotate(-180deg); 
 }
-@media (min-width:377px)and (max-width:767px) {
-    .collapse_element{
-        width: 90%;
-        margin-top: 10px;
-        height: auto;
-    }
-    .collapse_header{
-        @include Montserrat-si-st-w(13px, normal, 700);
-        height: 40px;
-    }
-}
-@media screen and (max-width: 376px) {
-    .collapse_element{
-        width: 90%;
-        margin-top: 10px;
-        height: auto;
-    }
+
+@media screen and (max-width:767px) {
     .collapse_header{
         @include Montserrat-si-st-w(13px, normal, 700);
         height: 40px;
