@@ -39,7 +39,6 @@
     .slideshow_pictures{
         max-width: 355px;
         height: 255px;
-        margin-left: 30%;
     }
 
     .previous_arrow, .next_arrow {
@@ -51,13 +50,8 @@
         transform: translateY(-50%);
         cursor: pointer;
     }
-
-    .previous_arrow {
-        left: 10px;  
-    }
-
     .next_arrow {
-        right: 10px; 
+        right: 1px; 
     }
 
     .image_counter {

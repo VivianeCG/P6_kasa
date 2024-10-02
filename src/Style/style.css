@@ -23,15 +23,17 @@
 }
 
 @media screen and (max-width: 767px) {
+  .banner {
+    margin: 0;
+  }
   .banner_container {
     width: 335px;
     height: 111px;
-    margin-left: -20px;
+    margin: auto;
   }
   .banner img {
     width: 335px;
     height: 111px;
-    margin-left: 39px;
   }
 }
 .card {
@@ -130,7 +132,6 @@
   .slideshow_pictures {
     max-width: 355px;
     height: 255px;
-    margin-left: 30%;
   }
   .previous_arrow, .next_arrow {
     width: 24px;
@@ -141,11 +142,8 @@
     transform: translateY(-50%);
     cursor: pointer;
   }
-  .previous_arrow {
-    left: 10px;
-  }
   .next_arrow {
-    right: 10px;
+    right: 1px;
   }
   .image_counter {
     position: absolute;
@@ -198,11 +196,13 @@
 
 @media screen and (max-width: 767px) {
   .collapse_header {
+    height: 40px;
+  }
+  .collapse_title {
     font-family: Montserrat;
     font-size: 13px;
     font-style: normal;
     font-weight: 700;
-    height: 40px;
   }
 }
 .footer {
@@ -237,7 +237,7 @@
 
 @media screen and (max-width: 767px) {
   .footer {
-    width: 375px;
+    width: 100%;
     height: 209px;
   }
   .legal-info {
@@ -283,14 +283,12 @@
 @media (max-width: 767px) {
   .header {
     width: 100%;
-    justify-content: unset;
-    padding: 20px 20px 27px 30px;
-    margin: unset;
+    justify-content: center;
+    margin: auto;
   }
   .header .logo {
     width: auto;
     height: 60%;
-    padding-left: unset;
   }
   .header .navbar {
     width: 11.875em;
@@ -432,7 +430,7 @@
 @media screen and (max-width: 767px) {
   .app {
     max-width: 767px;
-    padding-top: unset;
+    padding-top: 3%;
     margin: auto;
   }
 }
@@ -472,15 +470,10 @@
   }
   .collapse_wrapper {
     width: 375px;
-    margin-top: 40px;
-    padding-left: 0;
   }
   .about_page .collapse_arrow {
-    width: 97%;
+    width: 90%;
     height: auto;
-  }
-  .about_page .collapse_button {
-    margin-left: 70%;
   }
 }
 .error {
@@ -610,7 +603,6 @@
     width: 315px;
     height: 111px;
     bottom: -16px;
-    margin: 0 7%;
     padding-left: 19px;
     align-content: center;
     justify-content: flex-start;
@@ -620,9 +612,8 @@
     display: flex;
     flex-direction: column;
     background-color: white;
-    margin: unset;
     gap: unset;
-    padding-left: 6px;
+    padding: 0;
   }
   .flat_name {
     left: 30px;
@@ -666,7 +657,6 @@
 .rentalInfo_page .collapse_button {
   background: transparent;
   border: none;
-  margin-left: 33%;
   cursor: pointer;
 }
 
@@ -678,36 +668,38 @@
 }
 
 @media screen and (max-width: 767px) {
-  .main_container, .containers {
+  .main_container_rental, .containers {
     width: 375px;
     display: flex;
     flex-direction: column;
     margin: auto;
   }
   .container1 {
-    margin-left: 1.2em;
-    width: 94%;
+    margin-left: 7%;
+    width: 86%;
   }
   .container2 {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
     align-items: baseline;
-    margin-right: unset;
-    margin-left: 18px;
-    margin-bottom: 1.2em;
-    width: 94%;
+    margin-left: 7%;
+    margin-bottom: 6%;
+    width: 86%;
   }
   .description_equipment {
     padding-left: 0;
-    margin-left: 1.2em;
     margin-bottom: unset;
-    width: 105%;
     display: flex;
     flex-direction: column;
   }
-  .rentalInfo_page .collapse_button {
-    margin-left: 72%;
+  .collapse_width50 {
+    width: 100%;
+    margin-bottom: 7%;
+  }
+  .rentalInfo_page .collapse_arrow {
+    width: 90%;
+    height: auto;
   }
 }
 

@@ -22,7 +22,7 @@
 
 @media screen and (max-width:767px) {
     .footer{ 
-        width: 375px;
+        width: 100%;
         height: 209px;}
     .legal-info{
         @include Montserrat-si-st-w (12px, normal, 500);

@@ -29,8 +29,6 @@
 .rentalInfo_page .collapse_button {
     background: transparent;
     border: none;
-    //position: absolute;
-    margin-left: 33%;
     cursor: pointer;
 }
 .rentalInfo_page .collapse_arrow{
@@ -42,37 +40,37 @@
 
 
 @media screen and (max-width:767px) {
-    .main_container, .containers {
+    .main_container_rental, .containers {
         width: 375px;
         display: flex;
         flex-direction: column;
         margin: auto;
     }
     .container1{
-        margin-left: 1.2em;
-        width: 94%;
+        margin-left: 7%;
+        width: 86%;
     }
     .container2{
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
         align-items: baseline;
-        margin-right: unset;
-        margin-left: 18px;
-        margin-bottom: 1.2em;
-        width: 94%;
+        margin-left: 7%;
+        margin-bottom: 6%;
+        width: 86%;
     }
     .description_equipment{
         padding-left: 0;
-        margin-left: 1.2em;
         margin-bottom: unset;
-        width: 105%;
         display: flex;
         flex-direction: column;
     }
-    .rentalInfo_page .collapse_button{
-        margin-left: 72%;
+    .collapse_width50{
+        width: 100%;
+        margin-bottom: 7%;
     }
-
-
-}
+    .rentalInfo_page .collapse_arrow{
+        width: 90%;
+        height: auto;
+    }
+    }

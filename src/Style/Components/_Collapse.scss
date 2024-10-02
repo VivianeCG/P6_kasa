@@ -39,8 +39,10 @@
 
 @media screen and (max-width:767px) {
     .collapse_header{
-        @include Montserrat-si-st-w(13px, normal, 700);
         height: 40px;
+    }
+    .collapse_title{
+        @include Montserrat-si-st-w(13px, normal, 700);
     }
 
 }
