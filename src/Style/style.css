@@ -621,17 +621,14 @@
   flex-direction: column;
 }
 
-.container1 {
-  width: 50%;
-}
-
 .container2 {
-  width: 50%;
   align-items: flex-end;
 }
 
 .containers {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   margin: 2% 7%;
 }
 
@@ -665,12 +662,9 @@
 }
 
 @media screen and (max-width: 767px) {
-  .main_container_rental, .containers {
+  .main_container_rental {
     display: flex;
     flex-direction: column;
-  }
-  .container1 {
-    width: 100%;
   }
   .container2 {
     display: flex;
@@ -678,7 +672,6 @@
     justify-content: flex-end;
     align-items: baseline;
     margin-bottom: 6%;
-    width: 86%;
   }
   .description_equipment {
     padding-left: 0;
