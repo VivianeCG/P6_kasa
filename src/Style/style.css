@@ -23,17 +23,8 @@
 }
 
 @media screen and (max-width: 767px) {
-  .banner {
-    margin: 0;
-  }
-  .banner_container {
-    width: 335px;
-    height: 111px;
-    margin: auto;
-  }
-  .banner img {
-    width: 335px;
-    height: 111px;
+  .banner_image {
+    max-height: 111px;
   }
 }
 .card {
@@ -65,24 +56,26 @@
 
 @media screen and (max-width: 767px) {
   .flat_card {
-    width: 335px;
+    width: auto;
+    margin: 3%;
   }
   .card {
-    width: 335px;
-    height: 255px;
-    padding: 20px;
+    width: auto;
+    height: auto;
+    padding: 0;
   }
   .card::before {
     content: "";
     position: absolute;
-    width: 335px;
+    right: 0;
+    width: 100%;
     background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
     z-index: 1;
-    margin: 20px;
     border-radius: 10px;
   }
   .card_img {
     border-radius: 10px;
+    height: 255px;
   }
 }
 .slideshow_pictures {
@@ -130,7 +123,6 @@
 
 @media screen and (max-width: 767px) {
   .slideshow_pictures {
-    max-width: 355px;
     height: 255px;
   }
   .previous_arrow, .next_arrow {
@@ -283,15 +275,18 @@
 @media (max-width: 767px) {
   .header {
     width: 100%;
-    justify-content: center;
-    margin: auto;
+    justify-content: space-evenly;
+    margin: unset;
+  }
+  .header .logo_link {
+    width: 42%;
   }
   .header .logo {
     width: auto;
-    height: 60%;
+    height: 57%;
   }
   .header .navbar {
-    width: 11.875em;
+    width: auto;
   }
   .header .navbar ul {
     font-size: 12px;
@@ -404,6 +399,7 @@
   }
   .accommodation_owner {
     align-items: center;
+    gap: 8%;
   }
 }
 .rating {
@@ -417,8 +413,8 @@
 
 @media screen and (max-width: 767px) {
   .rating {
-    width: 98px;
     height: 18px;
+    width: unset;
   }
 }
 .app {
@@ -468,8 +464,8 @@
   .about_page {
     margin: auto;
   }
-  .collapse_wrapper {
-    width: 375px;
+  .collapse_element {
+    width: 85%;
   }
   .about_page .collapse_arrow {
     width: 90%;
@@ -600,15 +596,16 @@
     font-weight: 700;
     display: flex;
     flex-wrap: wrap;
-    width: 315px;
     height: 111px;
+    width: 96.8%;
     bottom: -16px;
+    right: 1px;
     padding-left: 19px;
     align-content: center;
     justify-content: flex-start;
   }
   .card_background {
-    width: 375px;
+    width: 86.1%;
     display: flex;
     flex-direction: column;
     background-color: white;
@@ -669,21 +666,17 @@
 
 @media screen and (max-width: 767px) {
   .main_container_rental, .containers {
-    width: 375px;
     display: flex;
     flex-direction: column;
-    margin: auto;
   }
   .container1 {
-    margin-left: 7%;
-    width: 86%;
+    width: 100%;
   }
   .container2 {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: baseline;
-    margin-left: 7%;
     margin-bottom: 6%;
     width: 86%;
   }

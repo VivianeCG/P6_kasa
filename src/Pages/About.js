@@ -9,7 +9,7 @@ function About() {
       <Banner src={photo} alt='paysage de montagne' />
       <section className='collapse_wrapper'>
           {data.map((info) => (
-          <div className='collapse_element'>
+             <div className='collapse_element'key={info.id}>
             <Collapse
               key={info.id}
               id={info.id}

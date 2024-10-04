@@ -28,6 +28,7 @@ function RentalInfos() {
           <Rating rating={accommodation.rating} />
         </section>
       </div>
+
       <section className='description_equipment rentalInfo_page'>
         <div className='collapse_width50'>
           <Collapse

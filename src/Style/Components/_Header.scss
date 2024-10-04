@@ -28,15 +28,17 @@
 @media (max-width:767px){
     .header{
         width: 100%;
-        justify-content: center;
-
-        margin: auto;
+        justify-content: space-evenly;
+        margin: unset;
+        .logo_link{
+            width: 42%;
+        }
         .logo{
             width: auto;
-            height: 60%;
+            height: 57%;
         }
         .navbar{
-            width: 11.875em;
+            width: auto;
             ul{
                 font-size: 12px;
             }

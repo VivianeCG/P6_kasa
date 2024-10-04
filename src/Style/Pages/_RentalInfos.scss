@@ -41,21 +41,17 @@
 
 @media screen and (max-width:767px) {
     .main_container_rental, .containers {
-        width: 375px;
         display: flex;
         flex-direction: column;
-        margin: auto;
     }
     .container1{
-        margin-left: 7%;
-        width: 86%;
+        width: 100%;
     }
     .container2{
         display: flex;
         flex-direction: row-reverse;
-        justify-content: space-between;
+        justify-content: flex-end;
         align-items: baseline;
-        margin-left: 7%;
         margin-bottom: 6%;
         width: 86%;
     }

@@ -27,23 +27,25 @@
 
 @media screen and (max-width:767px) {
     .flat_card{
-        width: 335px;
+        width: auto;
+        margin: 3%;
     }
     .card{
-        width: 335px;
-        height: 255px;
-        padding: 20px;
+        width: auto;
+        height: auto;
+        padding: 0;
         &::before{ 
             content: ''; //doit être défini (ici avec une chaîne vide) pour que le pseudo-élément apparaisse.
             position: absolute;
-            width:335px;
+            right: 0;
+            width: 100%;
             background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
             z-index: 1;//dégradé au dessus de l'image
-            margin: 20px;
             border-radius: 10px;
             }
     }
     .card_img{
         border-radius: 10px;
+        height: 255px;
     }
 }

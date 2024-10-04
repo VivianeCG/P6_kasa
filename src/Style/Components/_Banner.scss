@@ -24,16 +24,7 @@
 }
 
 @media screen and (max-width:767px) {
-    .banner{
-        margin: 0;
-    }
-    .banner_container{
-        width: 335px;
-        height: 111px;
-        margin: auto;
-    }
-    .banner img{
-        width: 335px;
-        height: 111px;
+    .banner_image{
+        max-height: 111px;
     }
 }

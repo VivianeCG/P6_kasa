@@ -10,7 +10,6 @@
     text-align: right;
     @include Montserrat-si-st-w (18px, normal, 500);
     width: 93px;
-    //height: 52px;
     margin: 0px;
 }
 
@@ -30,5 +29,6 @@
     }
     .accommodation_owner {
         align-items: center;
+        gap: 8%;
     }
 }
